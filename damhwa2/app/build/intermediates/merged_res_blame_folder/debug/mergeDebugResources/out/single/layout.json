@@ -1,0 +1,58 @@
+[
+    {
+        "merged": "com.example.damhwa2.app-mergeDebugResources-44:/layout/activity_phone_number_verification.xml",
+        "source": "com.example.damhwa2.app-main-47:/layout/activity_phone_number_verification.xml"
+    },
+    {
+        "merged": "com.example.damhwa2.app-mergeDebugResources-44:/layout/fragment_community.xml",
+        "source": "com.example.damhwa2.app-main-47:/layout/fragment_community.xml"
+    },
+    {
+        "merged": "com.example.damhwa2.app-mergeDebugResources-44:/layout/item_chat.xml",
+        "source": "com.example.damhwa2.app-main-47:/layout/item_chat.xml"
+    },
+    {
+        "merged": "com.example.damhwa2.app-mergeDebugResources-44:/layout/activity_main.xml",
+        "source": "com.example.damhwa2.app-main-47:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.example.damhwa2.app-mergeDebugResources-44:/layout/item_chat_message.xml",
+        "source": "com.example.damhwa2.app-main-47:/layout/item_chat_message.xml"
+    },
+    {
+        "merged": "com.example.damhwa2.app-mergeDebugResources-44:/layout/fragment_matching.xml",
+        "source": "com.example.damhwa2.app-main-47:/layout/fragment_matching.xml"
+    },
+    {
+        "merged": "com.example.damhwa2.app-mergeDebugResources-44:/layout/fragment_home.xml",
+        "source": "com.example.damhwa2.app-main-47:/layout/fragment_home.xml"
+    },
+    {
+        "merged": "com.example.damhwa2.app-mergeDebugResources-44:/layout/fragment_chat.xml",
+        "source": "com.example.damhwa2.app-main-47:/layout/fragment_chat.xml"
+    },
+    {
+        "merged": "com.example.damhwa2.app-mergeDebugResources-44:/layout/activity_logout.xml",
+        "source": "com.example.damhwa2.app-main-47:/layout/activity_logout.xml"
+    },
+    {
+        "merged": "com.example.damhwa2.app-mergeDebugResources-44:/layout/activity_home.xml",
+        "source": "com.example.damhwa2.app-main-47:/layout/activity_home.xml"
+    },
+    {
+        "merged": "com.example.damhwa2.app-mergeDebugResources-44:/layout/activity_signup.xml",
+        "source": "com.example.damhwa2.app-main-47:/layout/activity_signup.xml"
+    },
+    {
+        "merged": "com.example.damhwa2.app-mergeDebugResources-44:/layout/activity_login.xml",
+        "source": "com.example.damhwa2.app-main-47:/layout/activity_login.xml"
+    },
+    {
+        "merged": "com.example.damhwa2.app-mergeDebugResources-44:/layout/item_post.xml",
+        "source": "com.example.damhwa2.app-main-47:/layout/item_post.xml"
+    },
+    {
+        "merged": "com.example.damhwa2.app-mergeDebugResources-44:/layout/fragment_mypage.xml",
+        "source": "com.example.damhwa2.app-main-47:/layout/fragment_mypage.xml"
+    }
+]
