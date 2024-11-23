@@ -5,4 +5,9 @@
     <string name="title_matching">매칭</string>
     <string name="title_mypage">마이페이지</string>
     <string name="profile_image">Profile Image</string>
+    <string name="q_a"><![CDATA[Q&A 내용]]></string>
+    <string name="q_a_title"><![CDATA[Q&A 제목]]></string>
+    <string name="qna">QnA</string>
+    <string name="write_your_post_here">Write your post here...</string>
+    <string name="post">Post</string>
 </resources>
