@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    tools:ignore="ExtraText">
+
+    <item
+        android:id="@+id/navigation_home"
+        android:icon="@drawable/ic_home_black_24dp"
+        android:title="@string/title_home" />
+
+    <item
+        android:id="@+id/navigation_community"
+        android:icon="@drawable/ic_community_black_24dp"
+        android:title="@string/title_community" />
+
+    <item
+        android:id="@+id/navigation_matching"
+        android:icon="@drawable/ic_matching_black_24dp"
+        android:title="@string/title_matching" />
+
+    <item
+        android:id="@+id/navigation_mypage"
+        android:icon="@drawable/ic_mypage_black_24dp"
+        android:title="@string/title_mypage" />
+
+    <item
+        android:id="@+id/navigation_qna"
+        android:icon="@drawable/ic_qna_black_24dp"
+        android:title="@string/qna" />
+</menu>
