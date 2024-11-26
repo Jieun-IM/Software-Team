@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Base application theme -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here -->
+        <item name="colorPrimary">#FFB6C1</item> <!-- 분홍색 계열 -->
+        <item name="colorPrimaryDark">#FF69B4</item>
+        <item name="colorAccent">#FFC0CB</item>
+        <item name="android:windowBackground">#FFF0F5</item> <!-- 분홍 배경색 -->
+    </style>
+
+</resources>
