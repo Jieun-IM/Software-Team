@@ -10,4 +10,34 @@
     <string name="qna">QnA</string>
     <string name="write_your_post_here">Write your post here...</string>
     <string name="post">Post</string>
+
+
+
+    <color name="primaryColor">#FFC0CB</color> <!-- 밝은 분홍색 -->
+    <color name="primaryDarkColor">#FF69B4</color> <!-- 짙은 분홍색 -->
+    <color name="accentColor">#FFB6C1</color> <!-- 중간 분홍색 -->
+    <color name="backgroundColor">#FFF5F8</color> <!-- 아주 연한 분홍색 배경 -->
+
+
+    <string-array name="living_options">
+        <item>living</item>
+        <item>수도권</item>
+        <item>부산</item>
+        <item>제주</item>
+        <item>울산</item>
+        <item>경남</item>
+        <item>대구</item>
+        <item>경북</item>
+        <item>강원</item>
+        <item>대전</item>
+        <item>충남</item>
+        <item>충북</item>
+        <item>세종</item>
+        <item>광주</item>
+        <item>전남</item>
+        <item>전북</item>
+    </string-array>
+
+
+
 </resources>
