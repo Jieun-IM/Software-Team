@@ -1,4 +1,9 @@
 <resources>
+    <string name="app_name">damhwa2</string>
+    <string name="title_home">홈</string>
+    <string name="title_community">커뮤니티</string>
+    <string name="title_matching">매칭</string>
+    <string name="title_mypage">마이페이지</string>
         <color name="primaryColor">#FFC0CB</color> <!-- 밝은 분홍색 -->
         <color name="primaryDarkColor">#FF69B4</color> <!-- 짙은 분홍색 -->
         <color name="accentColor">#FFB6C1</color> <!-- 중간 분홍색 -->
