@@ -28,10 +28,10 @@ public class LoginActivity extends AppCompatActivity {
                 // 로그인 로직 추가 필요
                 String email = editTextId.getText().toString();
                 String password = editTextPassword.getText().toString();
-                
+
                 // 서버로 로그인 데이터 전송하는 코드 추가
                 Toast.makeText(LoginActivity.this, "로그인 성공", Toast.LENGTH_SHORT).show();
-                
+
                 // 로그인 성공 시 메인 화면으로 이동
                 startActivity(new Intent(LoginActivity.this, HomeActivity.class));
             }

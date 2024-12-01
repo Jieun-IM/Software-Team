@@ -30,11 +30,14 @@
           <theme>@style/Theme.AppCompat.Light.NoActionBar</theme>
         </config>
       </layout>
+<<<<<<< HEAD
       <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/activity_phone_number_verification.xml">
         <config>
           <theme>@style/Theme.AppCompat.Light.NoActionBar</theme>
         </config>
       </layout>
+=======
+>>>>>>> main
       <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/activity_signup.xml">
         <config>
           <theme>@style/Theme.AppCompat.Light.NoActionBar</theme>
@@ -101,7 +104,38 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
+<<<<<<< HEAD
     <list default="true" id="df3314f9-6154-4d8f-b3bc-c1e700c97c8f" name="Changes" comment="- 회원가입 무결성조건 추가&#10;- 휴대폰 인증번호(mysql 연결)기능 추가&#10;- 배경화면 색, 로고(임시사진) 추가" />
+=======
+    <list default="true" id="df3314f9-6154-4d8f-b3bc-c1e700c97c8f" name="Changes" comment="- 회원가입 무결성조건 추가&#10;- 휴대폰 인증번호(mysql 연결)기능 추가&#10;- 배경화면 색, 로고(임시사진) 추가">
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/damhwa2/SplashActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/damhwa_logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/rounded_button.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_splash.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/values/styles.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.9/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.9/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.9/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.9/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.9/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.9/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.9/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.9/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/config.properties" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/config.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/file-system.probe" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/file-system.probe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/damhwa2/HomeActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/damhwa2/HomeActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/damhwa2/LoginActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/damhwa2/LoginActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/damhwa2/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/damhwa2/MainActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/damhwa2/PhoneNumberVerificationActivity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/damhwa2/SignupActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/damhwa2/SignupActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_login.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_login.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_phone_number_verification.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_signup.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_signup.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/local.properties" beforeDir="false" afterPath="$PROJECT_DIR$/local.properties" afterDir="false" />
+    </list>
+>>>>>>> main
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -119,6 +153,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="valueResourceFile" />
+        <option value="resourceFile" />
         <option value="layoutResourceFile" />
         <option value="Class" />
         <option value="resourceFile" />
@@ -128,6 +164,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="ROOT_SYNC" value="SYNC" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
   &quot;lastFilter&quot;: {
@@ -135,6 +172,15 @@
     &quot;assignee&quot;: &quot;Jieun-IM&quot;
   }
 }</component>
+<<<<<<< HEAD
+=======
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/ps9b/Software-Team.git&quot;,
+    &quot;accountId&quot;: &quot;e604dd26-13b5-4efe-8426-7d3e8abdf7e3&quot;
+  }
+}</component>
+>>>>>>> main
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_mypage.xml" root0="FORCE_HIGHLIGHTING" />
   </component>
@@ -167,11 +213,14 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\82102\AndroidStudioProjects\Software-Team\damhwa2\app\src\main\res\drawable" />
       <recent name="D:\Users\jieun\damhwa2\app\src\main\res\drawable" />
       <recent name="D:\Users\jieun\damhwa2\app\src\main\res\values" />
       <recent name="D:\damwha2\app\src\main\res" />
       <recent name="D:\damwha2\app\src\main\java\com\example\damwha" />
-      <recent name="D:\damwha2\app\src\main\res\layout" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\82102\AndroidStudioProjects\Software-Team\damhwa2\app\src\main\res\drawable" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\82102\AndroidStudioProjects\Software-Team\damhwa2\app\src\main\res\drawable" />
@@ -488,10 +537,40 @@
       <option name="project" value="LOCAL" />
       <updated>1732644495009</updated>
     </task>
+<<<<<<< HEAD
     <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
+=======
+    <task id="LOCAL-00002" summary="- 회원가입 무결성조건 추가&#10;- 휴대폰 인증번호(mysql 연결)기능 추가&#10;- 배경화면 색, 로고(임시사진) 추가">
+      <option name="closed" value="true" />
+      <created>1732644831519</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1732644831519</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="origin/dain" />
+                </option>
+              </RecentGroup>
+            </list>
+          </value>
+        </entry>
+      </map>
+    </option>
+>>>>>>> main
     <option name="TAB_STATES">
       <map>
         <entry key="MAIN">
@@ -502,7 +581,11 @@
                   <entry key="branch">
                     <value>
                       <list>
+<<<<<<< HEAD
                         <option value="origin/main" />
+=======
+                        <option value="origin/dain" />
+>>>>>>> main
                       </list>
                     </value>
                   </entry>

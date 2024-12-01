@@ -34,4 +34,10 @@
         android:name="com.example.damhwa2.ui.chat.ChatFragment"
         android:label="Chat"
         tools:layout="@layout/fragment_chat" />
+    <!-- New Q&A Fragment -->
+    <fragment
+        android:id="@+id/navigation_qna"
+        android:name="com.example.damhwa2.ui.qna.QnaFragment"
+        android:label="Q&amp;A"
+        tools:layout="@layout/fragment_qna" />
 </navigation>

@@ -1,0 +1,29 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <!-- 글 작성 입력 필드 -->
+    <EditText
+        android:id="@+id/et_post"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:autofillHints=""
+        android:hint="@string/write_your_post_here" />
+
+    <!-- 게시글 추가 버튼 -->
+    <Button
+        android:id="@+id/btn_add_post"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/post" />
+
+    <!-- 게시글과 댓글 리스트 -->
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recycler_view"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+</LinearLayout>
