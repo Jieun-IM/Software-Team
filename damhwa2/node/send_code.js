@@ -118,6 +118,23 @@ app.post('/verify_code', (req, res) => {
     });
 });
 
+const users = [
+    { id: 1, name: "User1" },
+    { id: 2, name: "User2" },
+    { id: 3, name: "User3" },
+    { id: 4, name: "User4" }
+];
+
+// 랜덤 매칭 API
+app.get('/api/random-matching', (req, res) => {
+    const randomIndex = Math.floor(Math.random() * users.length);
+    const matchedUser = users[randomIndex];
+    res.json({ success: true, matchedUser });
+});
+
+app.listen(PORT, () => {
+    console.log(`Server is running on http://localhost:${PORT}`);
+});
 
 
 // Start the server
