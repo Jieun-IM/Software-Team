@@ -6,7 +6,7 @@ public class ChatItem {
     private String profileImage;  // 프로필 이미지 URL (옵션)
 
     // 생성자
-    public ChatItem(String name, String lastMessage, String profileImage) {
+    public ChatItem(String name, String lastMessage) {
         this.name = name;
         this.lastMessage = lastMessage;
         this.profileImage = profileImage;

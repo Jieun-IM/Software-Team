@@ -152,7 +152,7 @@ wss.on('connection', function connection(ws) {
   console.log('Chat server is running on ws://localhost:8080');
 
 // Start the server
-const PORT = 3000;
+const PORT = 8080;
 app.listen(PORT, () => {
     console.log(`Server is running on http://localhost:${PORT}`);
 });
