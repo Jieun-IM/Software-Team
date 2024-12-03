@@ -10,7 +10,7 @@
     <string name="qna">QnA</string>
     <string name="write_your_post_here">Write your post here...</string>
     <string name="post">Post</string>
-
+    <string name="random_matching">랜덤 매칭</string>
 
 
     <color name="primaryColor">#FFC0CB</color> <!-- 밝은 분홍색 -->
