@@ -132,11 +132,6 @@ app.get('/api/random-matching', (req, res) => {
     res.json({ success: true, matchedUser });
 });
 
-app.listen(PORT, () => {
-    console.log(`Server is running on http://localhost:${PORT}`);
-});
-
-
 // Start the server
 const PORT = 3000;
 app.listen(PORT, () => {
