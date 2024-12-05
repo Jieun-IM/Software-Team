@@ -40,12 +40,13 @@ insert into community values ('ccc', 'test content', null, null);
 
 drop table if exists comment;
 create table comment(
-	comment_count INT NULL,
+	comment_count INT NULL ,
 	comment_id VARCHAR(20) NOT NULL,
     comment_nikname VARCHAR(20) NOT NULL,
 	comment_content TEXT NOT NULL,
 	comment_comment INT NULL,
 	comment_like INT NULL,
+    FOREIGN KEY (comment_count) REFERENCES member(commnity_comment),
 	FOREIGN KEY (comment_id) REFERENCES member(member_id),
 	FOREIGN KEY (comment_nikname) REFERENCES member(member_nickname)
 ); 
@@ -90,3 +91,5 @@ create table report(
 ); 
 
 select * from friend;
+
+
