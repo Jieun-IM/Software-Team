@@ -4,12 +4,17 @@ public class PostItem {
     private String username;
     private String profileImage;
     private String content;
+    private int comment;
+    private int like;
+
 
     // 생성자
-    public PostItem(String username, String profileImage, String content) {
+    public PostItem(String username, String profileImage, String content, int comment, int like) {
         this.username = username;
         this.profileImage = profileImage;
         this.content = content;
+        this.comment = comment;
+        this.like = like;
     }
 
     // Getter와 Setter
@@ -35,6 +40,22 @@ public class PostItem {
 
     public void setContent(String content) {
         this.content = content;
+    }
+
+    public int getComment() {
+        return comment;
+    }
+
+    public void setComment(int comment) {
+        this.comment = comment;
+    }
+
+    public int getLike() {
+        return like;
+    }
+
+    public void setLike(int like) {
+        this.like = like;
     }
 }
 

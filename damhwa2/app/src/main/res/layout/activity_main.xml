@@ -1,43 +1,82 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
     android:padding="16dp"
-    android:gravity="center">
+    android:background="#FFE4E1">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Welcome to Damwha!"
-        android:textSize="24sp"
-        android:textStyle="bold"
-        android:layout_marginBottom="24dp" />
 
-    <Button
-        android:id="@+id/button_signup"
+
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="회원가입" />
+        android:orientation="vertical"
+        android:gravity="center"
+        android:padding="16dp">
 
-    <Button
-        android:id="@+id/button_email_verification"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="휴대폰 인증"
-        android:layout_marginTop="16dp" />
+        <!-- Damhwa 로고 -->
+        <ImageView
+            android:id="@+id/imageViewLogo"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:src="@drawable/damhwa_logo"
+            android:layout_marginTop="60dp"
+            android:layout_marginBottom="32dp"
+            android:contentDescription="Damhwa Logo" />
 
-    <Button
-        android:id="@+id/button_login"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="로그인"
-        android:layout_marginTop="16dp" />
+        <!-- 환영 메시지 텍스트 -->
+        <TextView
+            android:id="@+id/textViewTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="담화"
+            android:textSize="35sp"
+            android:textStyle="bold"
+            android:fontFamily="@font/singleday_regular"
+            android:layout_marginBottom="20dp" />
 
-    <Button
-        android:id="@+id/button_logout"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="로그아웃"
-        android:layout_marginTop="16dp" />
-</LinearLayout>
+        <TextView
+            android:id="@+id/textViewDescription"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=": 돌싱 데이팅 어플"
+            android:textSize="25sp"
+            android:fontFamily="@font/singleday_regular"
+            android:layout_marginBottom="32dp" />
+
+
+        <!-- 회원가입 버튼 -->
+        <Button
+            android:id="@+id/button_signup"
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:backgroundTint="#FF69B4"
+            android:text="회원가입"
+            android:fontFamily="@font/singleday_regular"
+            android:textColor="#FFFFFF" />
+
+        <!-- 로그인 버튼 -->
+        <Button
+            android:id="@+id/button_login"
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:text="로그인"
+            android:layout_marginTop="16dp"
+            android:backgroundTint="#FF69B4"
+            android:fontFamily="@font/singleday_regular"
+            android:textColor="#FFFFFF" />
+
+        <!-- 로그아웃 버튼 -->
+        <Button
+            android:id="@+id/button_logout"
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:text="로그아웃"
+            android:layout_marginTop="16dp"
+            android:backgroundTint="#FF69B4"
+            android:fontFamily="@font/singleday_regular"
+            android:textColor="#FFFFFF" />
+
+    </LinearLayout>
+
+</ScrollView>

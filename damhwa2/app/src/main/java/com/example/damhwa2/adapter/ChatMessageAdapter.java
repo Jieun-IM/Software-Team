@@ -26,7 +26,7 @@ public class ChatMessageAdapter extends RecyclerView.Adapter<ChatMessageAdapter.
     @Override
     public ChatViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
         View view = LayoutInflater.from(parent.getContext())
-                .inflate(R.layout.item_chat_message, parent, false);
+                .inflate(R.layout.item_chat_message_me, parent, false);
         return new ChatViewHolder(view);
     }
 
@@ -36,10 +36,12 @@ public class ChatMessageAdapter extends RecyclerView.Adapter<ChatMessageAdapter.
         holder.message.setText(chatMessage.getMessage());
 
         // 메시지의 발신 여부에 따라 스타일 조정
-        if (chatMessage.isSentByCurrentUser()) {
-            holder.message.setTextAlignment(View.TEXT_ALIGNMENT_TEXT_END);
-        } else {
-            holder.message.setTextAlignment(View.TEXT_ALIGNMENT_TEXT_START);
+        if (chatMessage.isSentByCurrentUser()) { // 발신자일 경우
+            holder.message.setTextAlignment(View.TEXT_ALIGNMENT_TEXT_END);  // 오른쪽 정렬
+            holder.message.setBackgroundResource(R.drawable.chat_bubble_me);  // 발신자 스타일
+        } else { // 수신자일 경우
+            holder.message.setTextAlignment(View.TEXT_ALIGNMENT_TEXT_START);  // 왼쪽 정렬
+            holder.message.setBackgroundResource(R.drawable.chat_bubble_other);  // 수신자 스타일
         }
     }
 
@@ -61,7 +63,7 @@ public class ChatMessageAdapter extends RecyclerView.Adapter<ChatMessageAdapter.
 
         ChatViewHolder(View itemView) {
             super(itemView);
-            message = itemView.findViewById(R.id.message_text);
+            message = itemView.findViewById(R.id.message_text_me);
         }
     }
 }

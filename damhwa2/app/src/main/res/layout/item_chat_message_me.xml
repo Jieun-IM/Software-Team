@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="8dp"
+    android:gravity="end">  <!-- 발신자 메시지는 오른쪽 정렬 -->
+
+    <TextView
+        android:id="@+id/message_text_me"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/chat_bubble_me"
+        android:gravity="end"
+        android:padding="12dp"
+        android:text=""
+        android:textColor="@color/black" />
+</LinearLayout>
+    <!--<?xml version="1.0" encoding="utf-8"?>-->
+    <!--<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"-->
+    <!--    android:layout_width="match_parent"-->
+    <!--    android:layout_height="wrap_content"-->
+    <!--    android:orientation="horizontal"-->
+    <!--    android:padding="8dp"-->
+    <!--    android:gravity="end">-->
+
+    <!--    &lt;!&ndash; 메시지가 왼쪽에 배치될 경우 &ndash;&gt;-->
+    <!--    <TextView-->
+    <!--        android:id="@+id/message_text"-->
+    <!--        android:layout_width="wrap_content"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:padding="12dp"-->
+    <!--        android:text=""-->
+    <!--        android:textColor="#000"-->
+    <!--        android:background="@drawable/chat_bubble_other" />-->
+
+    <!--    &lt;!&ndash; 메시지가 오른쪽에 배치될 경우 &ndash;&gt;-->
+    <!--    <TextView-->
+    <!--        android:id="@+id/message_text_me"-->
+    <!--        android:layout_width="wrap_content"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:background="@drawable/chat_bubble_me"-->
+    <!--        android:gravity="end"-->
+    <!--        android:padding="12dp"-->
+    <!--        android:text=""-->
+    <!--        android:textColor="#FFFFFF" />-->
+    <!--</LinearLayout>-->

@@ -23,9 +23,9 @@ public class HomeViewModel extends ViewModel {
     private void loadInitialData() {
         // db 연결되면 수정해야함.
         List<ChatItem> initialChatList = new ArrayList<>();
-        initialChatList.add(new ChatItem("Alice", "Hello!", null));
-        initialChatList.add(new ChatItem("Bob", "How are you?", null));
-        initialChatList.add(new ChatItem("Charlie", "See you later!", null));
+        initialChatList.add(new ChatItem("Alice", "Hello!"));
+        initialChatList.add(new ChatItem("Bob", "How are you?"));
+        initialChatList.add(new ChatItem("Charlie", "See you later!"));
 
         chatList.setValue(initialChatList);
     }

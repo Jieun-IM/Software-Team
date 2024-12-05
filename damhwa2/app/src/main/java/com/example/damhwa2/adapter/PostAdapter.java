@@ -37,6 +37,9 @@ public class PostAdapter extends RecyclerView.Adapter<PostAdapter.PostViewHolder
 
         holder.username.setText(post.getUsername());
         holder.content.setText(post.getContent());
+        holder.comment.setText(String.valueOf(post.getComment()));
+        holder.like.setText(String.valueOf(post.getLike()));
+
 
         // Glide로 프로필 이미지 로드
         if (post.getProfileImage() != null) {
@@ -63,12 +66,16 @@ public class PostAdapter extends RecyclerView.Adapter<PostAdapter.PostViewHolder
         ImageView profileImage;
         TextView username;
         TextView content;
+        TextView comment;
+        TextView like;
 
         PostViewHolder(View itemView) {
             super(itemView);
             profileImage = itemView.findViewById(R.id.profile_image);
             username = itemView.findViewById(R.id.username);
             content = itemView.findViewById(R.id.post_content);
+            comment = itemView.findViewById(R.id.comment_count);
+            like = itemView.findViewById(R.id.like_count);
         }
     }
 }

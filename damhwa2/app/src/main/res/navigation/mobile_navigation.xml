@@ -21,7 +21,12 @@
         android:id="@+id/navigation_matching"
         android:name="com.example.damhwa2.ui.matching.MatchingFragment"
         android:label="@string/title_matching"
-        tools:layout="@layout/fragment_matching" />
+        tools:layout="@layout/fragment_matching" >
+        <!-- ProfileFragment로 이동하는 액션 정의 -->
+        <action
+            android:id="@+id/action_navigation_matching_to_profileFragment"
+            app:destination="@id/navigation_profile" />
+    </fragment>
 
     <fragment
         android:id="@+id/navigation_mypage"
@@ -40,4 +45,12 @@
         android:name="com.example.damhwa2.ui.qna.QnaFragment"
         android:label="Q&amp;A"
         tools:layout="@layout/fragment_qna" />
+    <fragment
+        android:id="@+id/navigation_profile"
+        android:name="com.example.damhwa2.ui.matching.ProfileFragment"
+        android:label="@string/title_profile" >
+        <action
+            android:id="@+id/action_profileFragment_to_chatFragment"
+            app:destination="@id/navigation_chat" />
+    </fragment>
 </navigation>

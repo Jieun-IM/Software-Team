@@ -3,6 +3,7 @@ package com.example.damhwa2.adapter;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ImageView;
 import android.widget.TextView;
 
 import androidx.annotation.NonNull;
@@ -79,13 +80,13 @@ public class ChatAdapter extends RecyclerView.Adapter<ChatAdapter.ChatViewHolder
     static class ChatViewHolder extends RecyclerView.ViewHolder {
         TextView chatName;
         TextView lastMessage;
-//        ImageView profileImage;
+        ImageView profileImage;
 
         ChatViewHolder(View itemView) {
             super(itemView);
             chatName = itemView.findViewById(R.id.chat_name);
             lastMessage = itemView.findViewById(R.id.last_message);
-//            profileImage = itemView.findViewById(R.id.profile_image);
+            profileImage = itemView.findViewById(R.id.profile_image);
         }
     }
 }
